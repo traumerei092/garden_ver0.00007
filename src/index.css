@@ -1,0 +1,8 @@
+body {
+  font-family: 'Orkney', sans-serif;
+  background-color: rgb(14, 31, 62);
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}

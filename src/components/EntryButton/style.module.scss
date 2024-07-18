@@ -1,0 +1,77 @@
+.topContainer {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25%;
+}
+
+.selectShop {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectShop p {
+    font-size: 22px;
+}
+
+.shops {
+    appearance: none;
+    min-width: 230px;
+    height: 2.8em;
+    padding: .4em calc(.8em + 30px) .4em .8em;
+    border: none;
+    border-bottom: 2px solid #00bfff;
+    background-color: rgb(14, 31, 62);
+    color: #ffffff;
+    font-size: 20px;;
+    cursor: pointer;
+}
+
+.shops::focus {
+    outline: none;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entryButton {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #00c6ff, #eb0ef2);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 50px 20px;
+
+    &:hover {
+        background: linear-gradient(to right, #09eb9c, #ff8c00);
+        color: black;
+    }
+}
+
+.exitButton {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(200, 200, 200);
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 15% 20px;
+
+    &:hover {
+        background: rgb(255, 255, 255);
+        color: black;
+    }
+}

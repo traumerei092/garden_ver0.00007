@@ -1,0 +1,20 @@
+.tabs {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ddd;
+    width: 70%;
+}
+
+.tabButton {
+    flex: 1;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid transparent;
+}
+
+.tabButton.active {
+    border-bottom: 2px solid #22028a;
+    background-color: #0099ff95;
+    color: white;
+}
